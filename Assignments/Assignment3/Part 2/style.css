@@ -1,5 +1,25 @@
 html {
   font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 /* Your CSS below here */
+.circle {
+  margin: 50px auto;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #5e1616;
+  border-radius: 17px;
+  outline-offset: 1rem ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.1rem;
+  color: white;
+  text-shadow: ;
+}

@@ -47,19 +47,23 @@ header, footer {
 
 
 @font-face {
-  font-family: 'CrimsonPro';
-  src: url('fonts/CrimsonPro-Regular.woff2') format('woff2'),
-       url('fonts/CrimsonPro-Regular.woff') format('woff');
+  font-family: 'arbutuss';
+  src: url('Fonts/arbutusslab-regular-webfont.woff2') format('woff2'),
+       url('Fonts/arbutusslab-regular-webfont.woff') format('woff'),
+       url('Fonts/arbutusslab-regular-webfont.ttf') format('truetype'),
+       url('Fonts/arbutusslab-regular-webfont.svg') format('svg');
 }
 
 @font-face {
-  font-family: 'Lato';
-  src: url('fonts/Lato-Regular.woff2') format('woff2'),
-       url('fonts/Lato-Regular.woff') format('woff');
+  font-family: 'fin_serif';
+  src: url('Fonts/finserifdisplay-regular-webfont.woff2') format('woff2'),
+       url('Fonts/finserifdisplay-regular-webfont.woff') format('woff'),
+       url('Fonts/finserifdisplay-regular-webfont.ttf') format('truetype'),
+       url('Fonts/finserifdisplay-regular-webfont.svg') format('svg');
 }
 
 html{
-  font-family: CrimsonPro, Lato;
+  font-family: 'arbutuss', 'serif';
   font-size: 10px;
 }
 
@@ -83,4 +87,6 @@ p, li {
   letter-spacing: 0.5px;
   word-spacing: 3px;
 }
+
+/* Link styling */
 

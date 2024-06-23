@@ -128,10 +128,8 @@ ul {
 }
 
 ol {
-  list-style-type: lower-latin;
+  list-style-type: lower-alpha;
 }
-
-
 
 nav ul {
   padding-left: 0;

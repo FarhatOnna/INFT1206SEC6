@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-     <!-- 
-      Name: Farhat Rahman
-      Student ID: 100953269
-      Date: 01-08-2024
-      File: part2.html 
-      This html document show a website that contains image gallery
-    -->
-    <meta charset="utf-8">
-    <title>Image gallery</title>
-    <link rel="stylesheet" href="../../Assignment4/Part2/part2.css">
-  </head>
 
-  <body>
+<head>
+    <meta charset="utf-8">
+    <!-- 
+  Name: Farhat Rahman
+  Student ID: 100953269
+  Date: 01-08-2024
+  File: part2.html 
+  This html document show a website that contains image gallery
+    -->
+    <title>Image gallery</title>
+
+    <link rel="stylesheet" href="../../Assignment4/Part2/part2.css">
+
+
+</head>
+
+<body>
     <h1>Image gallery example</h1>
 
     <div class="full-img">
-      <img class="displayed-img" src="../../../images/images/pic1.jpg" alt="Closeup of a human eye">
-      <div class="overlay"></div>
-      <button class="dark">Darken</button>
+        <img class="displayed-img" src="../../../gallery-start/gallery-start/images/pic5.jpg" alt="Butterfly on a leaf">
+        <div class="overlay"></div>
+        <button class="dark">Darken</button>
     </div>
 
     <div class="thumb-bar">
+        <img src="../../../gallery-start/gallery-start/images/pic2.jpg" alt ="photo of a rock" onclick="changeImage('pic2.jpg')">
+        <img src="../../../gallery-start/gallery-start/images/pic1.jpg" alt ="closeup of a blue human eye" onclick="changeImage('pic2.jpg')">
 
 
     </div>
-    <script src="../../Assignment4/Part2/"></script>
-  </body>
+    <script src="../../Assignment4/Part2/main.js"></script>
+</body>
+
 </html>
